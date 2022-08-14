@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrains Mono:pixelsize=20:antialias=true:autohint=true";
+static char *font = "JetBrains Mono:pixelsize=16:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -93,6 +93,9 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 8;
 
+/* bg opacity */
+float alpha = 0.5;
+
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
@@ -118,10 +121,10 @@ static const char *colorname[] = {
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc",
-	"#555555",
+	"#cccccc", /* cursor color */
+	"white", /* selected cursor color */
 	"gray90", /* default foreground colour */
-	"black", /* default background colour */
+	"#282A36", /* default background colour */
 };
 
 
@@ -130,7 +133,7 @@ static const char *colorname[] = {
  * foreground, background, cursor, reverse cursor
  */
 unsigned int defaultfg = 258;
-unsigned int defaultbg = 259;
+unsigned int defaultbg = 0;
 unsigned int defaultcs = 256;
 static unsigned int defaultrcs = 257;
 
@@ -146,7 +149,6 @@ static unsigned int cursorshape = 2;
 /*
  * Default columns and rows numbers
  */
-
 static unsigned int cols = 80;
 static unsigned int rows = 24;
 
