@@ -6,7 +6,16 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "JetBrains Mono:pixelsize=16:antialias=true:autohint=true";
-static int borderpx = 2;
+/* Spare fonts */
+static char *font2[] = {
+	"Symbola:pixelsize=16:antialias=true",
+	"Font Awesome 6 Free:pixelsize=12:antialias=true",
+	"Font Awesome 6 Brands:pixelsize=12:antialias=true",
+	"Unifont:pixelsize=16:antialias=true",
+	"JoyPixels:pixelsize=16:antialias=true",
+};
+
+static int borderpx = 24;
 
 /*
  * What program is execed by st depends of these precedence rules:
