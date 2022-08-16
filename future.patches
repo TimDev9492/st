@@ -8,7 +8,7 @@ https://st.suckless.org/patches/copyurl/
 # https://st.suckless.org/patches/delkey/
 https://st.suckless.org/patches/dynamic-cursor-color/
 # https://st.suckless.org/patches/font2/
-https://st.suckless.org/patches/glyph_wide_support/
+# https://st.suckless.org/patches/glyph_wide_support/
 https://st.suckless.org/patches/hidecursor/
 https://st.suckless.org/patches/ligatures/
 https://st.suckless.org/patches/nobadweight/
@@ -20,4 +20,3 @@ https://st.suckless.org/patches/undercurl/
 https://st.suckless.org/patches/vertcenter/
 https://st.suckless.org/patches/workingdir/
 # https://st.suckless.org/patches/xresources/
-
