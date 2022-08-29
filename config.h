@@ -9,8 +9,9 @@ static char *font = "JetBrains Mono:pixelsize=16:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
     "Symbola:pixelsize=16:antialias=true",
-    "Font Awesome 6 Free:pixelsize=12:antialias=true",
-    "Font Awesome 6 Brands:pixelsize=12:antialias=true",
+    "Font Awesome 6 Free:style=Solid:size=12",
+    "Font Awesome 6 Brands:size=12",
+    "Font Awesome v4 Compatibility:size=12",
     "Unifont:pixelsize=16:antialias=true",
     "JoyPixels:pixelsize=16:antialias=true",
 };
